@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <label for="Nrows">Rows:</label><br>
+    <input type="text" id="Nrows" name="Nrows"><br>
+    <label for="Ncol">Columns:</label><br>
+    <input type="text" id="Ncol" name="Nrows"><br>
+    <button onclick="create()">Create Table</button>
+    <button onclick="addCol()">Add Column</button>
+    <button onclick="removeCol()">Remove Column</button>
+    <button onclick="addRow()">Add Row</button>
+    <button onclick="removeRow()">Remove Row</button>
+
+    <div id="table-box">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

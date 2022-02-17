@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, table, tr, td {
+   font-family: Helvetica Nue, Tahona, Geneva, sans-serif;
+  }
+  
+  button {
+      margin: 10px 3px 30px 0px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid #000;
+    padding: 8px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #008ecc;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #89cff0;
+  }
+  
+  tr:first-child {
+    font-weight: bold;
+    background-color: #0f52ba;
+    color: #fff;
+  }
